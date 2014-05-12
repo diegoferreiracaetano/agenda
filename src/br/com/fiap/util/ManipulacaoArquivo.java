@@ -6,7 +6,10 @@ package br.com.fiap.util;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStream;
+import java.util.Collections;
 import java.util.Properties;
+
+import atividade5.exe1.Pessoa;
 
 public class ManipulacaoArquivo {
 
@@ -59,5 +62,15 @@ public class ManipulacaoArquivo {
 			}
 
 		}
+	}
+	
+	public void ordenazao(){
+		/*
+		 * Collections.sort(lista, new Pessoa());
+		 * System.out.println("\nLista Ordenada Pelo Nome: "); for (Pessoa
+		 * pessoa : lista) {
+		 * System.out.println(pessoa.getNome()+" - "+pessoa.getIdade
+		 * ()+" - "+pessoa.getSexo()+" - "+pessoa.getEmpresa()); }
+		 */
 	}
 }
